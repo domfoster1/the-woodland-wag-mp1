@@ -14,3 +14,28 @@
   --light-highlight-color: #f3e1c6; 
 
 }
+
+/*Global styles*/
+
+
+
+/*Navbar*/
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+/*buttons*/
+
+.custom-button-outline {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.custom-button-outline:hover {
+  background-color: var(--light-highlight-color);
+  color: var(--primary-color);
+  border: var(--primary-color);
+
+}
