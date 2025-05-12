@@ -1,0 +1,16 @@
+/*Google fonts import code*/
+
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Nunito:wght@300&display=swap');
+
+/*CSS Variables*/
+
+:root {
+
+  --primary-font: "Funnel Sans", sans-serif;
+  --secondary-font: "Nunito", sans-serif;
+  --primary-color: #4b5a3c; 
+  --secondary-color: #3a2620;
+  --hightlight-color: #db4995ce;
+  --light-highlight-color: #f3e1c6; 
+
+}
