@@ -17,6 +17,14 @@
 
 /*Global styles*/
 
+.section {
+  padding-top: 4px
+}
+
+h2,
+h4 {
+  color: var(--primary-color);
+}
 /*buttons*/
 
 .custom-button-outline {
@@ -54,7 +62,15 @@
 #hero {
   width: 100%;
   height: 50%;
+  }
+
+/*Service cards*/
+
+.cards {
+  padding: 4px;
+  
 }
+
 
 
 
