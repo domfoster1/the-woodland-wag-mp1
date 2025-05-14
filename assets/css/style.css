@@ -17,7 +17,20 @@
 
 /*Global styles*/
 
+/*buttons*/
 
+.custom-button-outline {
+  border: 1px solid var(--primary-color);
+  color: #ffffff;
+  background-color: var(--primary-color);
+}
+
+.custom-button-outline:hover {
+  background-color: var(--light-highlight-color);
+  color: var(--primary-color);
+  border: var(--primary-color);
+
+}
 
 /*Navbar*/
 
@@ -36,29 +49,39 @@
   color: var(--primary-color);
 }
 
+/*Hero image*/
 
-/*buttons*/
-
-.custom-button-outline {
-  border: 1px solid var(--primary-color);
-  color: #ffffff;
-  background-color: var(--primary-color);
+#hero {
+  width: 100%;
+  height: 50%;
 }
 
-.custom-button-outline:hover {
-  background-color: var(--light-highlight-color);
-  color: var(--primary-color);
-  border: var(--primary-color);
 
-}
+
 
 
 
 /*Media Queries*/
 
+/*Media Queries for small mobiles (320px+)*/
+
+@media screen and (max-width:320px) {
+
+  #logo {
+    width: 60px;
+    height: 60px;
+  }
+
+
+}
+
 /*Media queries for large mobiles (425px+)*/
 
 @media screen and (min-width:425px) {
+
+  #navbar {
+    padding-right: 15px;
+  }
 
   #navbar-title {
     font-size: 1.2rem;
@@ -70,8 +93,14 @@
 /*Media queries for tablets(768px+)*/
 
 @media screen and (min-width:768px) {
+  
+  #navbar {
+    padding-right: 75px;
+  }
+  
   #navbar-title {
     font-size: 2.5rem;
     margin-top: 2px;
+    
   }
 }
