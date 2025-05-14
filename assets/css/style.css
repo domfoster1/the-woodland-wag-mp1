@@ -33,6 +33,11 @@ h2 {
   width:100px;
   height: 100px;
 }
+
+.hidden {
+  display: none;
+}
+
 /*buttons*/
 
 .custom-button-outline {
@@ -90,6 +95,12 @@ h2 {
   color: var(--secondary-color);
   }
 
+/*Gallery Page*/
+
+#gallery-photos {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  }
 
 
 
