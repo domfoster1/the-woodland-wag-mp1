@@ -38,6 +38,7 @@ h2 {
   display: none;
 }
 
+
 /*buttons*/
 
 .custom-button-outline {
@@ -118,6 +119,14 @@ h2 {
   }
 
 
+}
+
+/*Media queries for small and larger mobiles*/
+
+@media screen and (max-width:425px) {
+  #map {
+    max-width: fit-content;
+  }
 }
 
 /*Media queries for large mobiles (425px+)*/
