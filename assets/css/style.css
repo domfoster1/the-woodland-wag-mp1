@@ -21,16 +21,28 @@
 
 /*Navbar*/
 
-.logo {
-  width: 100px;
-  height: 100px;
+#navbar {
+  background-color: var(--light-highlight-color);
+  text-transform: uppercase;
 }
+
+.nav-item {
+  color: var(--primary-color);
+}
+
+#navbar-title {
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  color: var(--primary-color);
+}
+
 
 /*buttons*/
 
 .custom-button-outline {
   border: 1px solid var(--primary-color);
-  color: var(--primary-color);
+  color: #ffffff;
+  background-color: var(--primary-color);
 }
 
 .custom-button-outline:hover {
@@ -38,4 +50,28 @@
   color: var(--primary-color);
   border: var(--primary-color);
 
+}
+
+
+
+/*Media Queries*/
+
+/*Media queries for large mobiles (425px+)*/
+
+@media screen and (min-width:425px) {
+
+  #navbar-title {
+    font-size: 1.2rem;
+  }
+  
+}
+
+
+/*Media queries for tablets(768px+)*/
+
+@media screen and (min-width:768px) {
+  #navbar-title {
+    font-size: 2.5rem;
+    margin-top: 2px;
+  }
 }
