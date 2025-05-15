@@ -46,6 +46,7 @@ h1, h2, h4 {
   border: 1px solid var(--primary-color);
   color: #ffffff;
   background-color: var(--primary-color);
+  text-transform: none;
 }
 
 .custom-button-outline:hover {
