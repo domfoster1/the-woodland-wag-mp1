@@ -155,7 +155,7 @@ main {
 }
 
 /*Media queries for small and larger mobiles*/
-
+/*Added to ensure navbar and footer cover full width of smaller screens*/
 @media screen and (max-width:425px) {
   #map {
     max-width: fit-content;
