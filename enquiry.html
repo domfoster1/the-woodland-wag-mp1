@@ -73,7 +73,7 @@
             <h2>Make an Enquiry!</h2>
         </div>
     <!--Form-->
-        <section id="form">
+        <div id="form">
             <form class="container text-center" action="success.html" method="get" >
                 <div class="row">
                     <div class="col-12 col-lg-6 mb-3">
@@ -89,16 +89,17 @@
                 
                     <div class="col-12 col-lg-6 mb-3">
                       <label for="phone">Phone Number</label>
-                       <input type="phone" id="phone" placeholder="01234 14522545" required>
+                       <input type="number" id="phone" placeholder="01234 14522545" required>
                     </div>
 
                     <div class="col-12 col-lg-6 mb-3">
                         <label for="amount-of-dogs"></label>
                          <select id="amount-of-dogs" name="amount-of-dogs" required>
+                            <option value="" selected>Amount of Dogs</option>
                             <option value="1">1</option>
                             <option value="2" >2</option>
                             <option value="3" >3</option>
-                            <option value="amount-of-dogs" selected>Amount of Dogs</option>
+                            
                         </select>
                       </div>
 
@@ -108,7 +109,7 @@
                       </div>
 
                       <div class="col-12 col-lg-6 mb-3">
-                        <label for="neutered" required> Have your dog(s) been spayed/neutered? </label>
+                        Have your dog(s) been spayed/neutered?
                         <label for="neutered-yes">Yes </label>
                         <input type="radio" id="neutered-yes" name="neutered" value="yes">
                         <label for="neutered-yes">No </label>
@@ -118,10 +119,11 @@
                       <div class="col-12 col-lg-6 mb-3">
                         <label for="type-of-service"></label>
                          <select id="type-of-service" name="type-of-service" required>
+                            <option value="" selected>Type of service</option>
                             <option value="dog-sitting">Dog Sitting</option>
                             <option value="dog-walking" >Dog Walking</option>
                             <option value="home-visits" >Home Visits</option>
-                            <option value="type-of-service" selected>Type of service</option>
+                            
                         </select>
                       </div>
 
@@ -146,7 +148,7 @@
                 </div>
               
             </form>
-        </section>
+        </div>
     </main> 
 
     
