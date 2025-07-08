@@ -39,6 +39,21 @@ h1, h2, h4 {
   display: none;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
 
 /*buttons*/
 
@@ -99,6 +114,7 @@ h1, h2, h4 {
 #contact {
   background-color: var(--light-highlight-color);
   width: 100%;
+
 }
 .social-networks i {
   color: var(--secondary-color);
